@@ -44,7 +44,7 @@ section {
 }
 
 .tablas {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px;
     padding: 20px;
     box-shadow: 2px 0px 10px black;
@@ -61,4 +61,25 @@ table {
     text-align: left;
 }
 
-@media 
+@media (max-width: 1300px) {
+
+    main {
+
+        display: block;
+            
+    }
+
+    section {
+
+        display: block;
+        width: 80%;
+
+    }
+
+    .tablas {
+
+        margin-bottom: 2%;
+
+    }
+
+}
