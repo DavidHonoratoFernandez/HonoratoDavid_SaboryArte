@@ -20,8 +20,7 @@
         <calorias_aproximadas>400</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>vegetariano</categoria>
-                <categoria>lácteo</categoria>
+                <categoria>vegetariano, lácteo</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -29,12 +28,11 @@
     <plato tipo="entrante">
         <nombre>Gazpacho Andaluz</nombre>
         <precio>5,50€</precio>
-        <descripcion>Sopa fría de tomate, pepino, pimientos, ajo y aceite de oliva, muy refrescante.</descripcion>
+        <descripcion>Sopa fría de tomate, pepino, pimientos, ajo y aceite de oliva.</descripcion>
         <calorias_aproximadas>150</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>vegano</categoria>
-                <categoria>sin gluten</categoria>
+                <categoria>vegano, sin gluten</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -54,12 +52,11 @@
     <plato tipo="entrante">
         <nombre>Queso Manchego Curado</nombre>
         <precio>7,00€</precio>
-        <descripcion>Lonchas de queso manchego curado, servido con pan tostado y aceite de oliva.</descripcion>
+        <descripcion>Lonchas de queso manchego curado, pan tostado y aceite de oliva.</descripcion>
         <calorias_aproximadas>320</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>lácteo</categoria>
-                <categoria>sin gluten</categoria>
+                <categoria>lácteo, sin gluten</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -72,8 +69,7 @@
         <calorias_aproximadas>250</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>vegano</categoria>
-                <categoria>sin gluten</categoria>
+                <categoria>vegano, sin gluten</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -81,12 +77,11 @@
     <plato tipo="primer_plato">
         <nombre>Arroz Caldoso con Mariscos</nombre>
         <precio>12,00€</precio>
-        <descripcion>Arroz cocido con caldo y mariscos frescos, típico del litoral mediterráneo.</descripcion>
+        <descripcion>Arroz cocido con caldo y mariscos frescos.</descripcion>
         <calorias_aproximadas>600</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>mariscos</categoria>
-                <categoria>sin gluten</categoria>
+                <categoria>mariscos, sin gluten</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -94,7 +89,7 @@
     <plato tipo="primer_plato">
         <nombre>Escudella i Carn d'Olla</nombre>
         <precio>10,00€</precio>
-        <descripcion>Plato típico catalán, una sopa de carne y verduras con arroz o fideos.</descripcion>
+        <descripcion>Sopa de carne y verduras con arroz o fideos.</descripcion>
         <calorias_aproximadas>500</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
@@ -106,7 +101,7 @@
     <plato tipo="primer_plato">
         <nombre>Fabada Asturiana</nombre>
         <precio>11,00€</precio>
-        <descripcion>Sopa espesa de alubias con chorizo y morcilla, típica de Asturias.</descripcion>
+        <descripcion>Sopa espesa de alubias con chorizo y morcilla.</descripcion>
         <calorias_aproximadas>700</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
@@ -118,7 +113,7 @@
     <plato tipo="primer_plato">
         <nombre>Sopa Castellana</nombre>
         <precio>6,00€</precio>
-        <descripcion>Sopa tradicional de ajo con huevo escalfado y pan, típica de Castilla.</descripcion>
+        <descripcion>Sopa tradicional de ajo con huevo escalfado y pan.</descripcion>
         <calorias_aproximadas>350</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
@@ -144,12 +139,11 @@
     <plato tipo="segundo_plato">
         <nombre>Paella Valenciana</nombre>
         <precio>16,00€</precio>
-        <descripcion>La auténtica paella de la Comunidad Valenciana, con mariscos, pollo, conejo y verduras.</descripcion>
+        <descripcion>La auténtica paella, con mariscos, pollo, conejo y verduras.</descripcion>
         <calorias_aproximadas>600</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>mariscos</categoria>
-                <categoria>sin gluten</categoria>
+                <categoria>mariscos, sin gluten</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -173,8 +167,7 @@
         <calorias_aproximadas>400</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>pescado</categoria>
-                <categoria>sin gluten</categoria>
+                <categoria>pescado, sin gluten</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -182,12 +175,11 @@
     <plato tipo="segundo_plato">
         <nombre>Pollo al Ajillo</nombre>
         <precio>13,00€</precio>
-        <descripcion>Trozos de pollo salteados con ajo y vino blanco, acompañados de patatas.</descripcion>
+        <descripcion>Trozos de pollo salteados con ajo y vino blanco, junto patatas.</descripcion>
         <calorias_aproximadas>550</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>carne</categoria>
-                <categoria>sin gluten</categoria>
+                <categoria>carne, sin gluten</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -201,8 +193,7 @@
         <calorias_aproximadas>500</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>gluten</categoria>
-                <categoria>lácteo</categoria>
+                <categoria>gluten, lácteo</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -214,8 +205,7 @@
         <calorias_aproximadas>350</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>gluten</categoria>
-                <categoria>lácteo</categoria>
+                <categoria>gluten, lácteo</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>
@@ -251,8 +241,7 @@
         <calorias_aproximadas>350</calorias_aproximadas>
         <caracteristicas>
             <ingredientes>
-                <categoria>gluten</categoria>
-                <categoria>lácteo</categoria>
+                <categoria>gluten, lácteo</categoria>
             </ingredientes>
         </caracteristicas>
     </plato>

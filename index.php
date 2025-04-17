@@ -50,7 +50,15 @@ if (file_exists('./XML/carta.xml')) {
                                
                                 echo "<tr>";
                                     echo "<td>" . $entrante->nombre . "........" . $entrante->precio . "</td>";
+                                    echo "<td>" . $entrante->calorias_aproximadas . " cal</td>";
                                 echo "</tr>";
+
+                                
+                                echo "<tr>";
+                                    echo "<td>" . $entrante->descripcion . "<br><br></td>";
+                                    echo "<td>" . $entrante->caracteristicas->ingredientes->categoria . "<br><br></td>";
+                                echo "</tr>";
+
                             
                             }
                         }
@@ -74,6 +82,12 @@ if (file_exists('./XML/carta.xml')) {
                            
                                 echo "<tr>";
                                     echo "<td>" . $primer_plato->nombre . "........" . $primer_plato->precio . "</td>";
+                                    echo "<td>" . $primer_plato->calorias_aproximadas . " cal</td>";
+                                echo "</tr>";
+
+                                echo "<tr>";
+                                    echo "<td>" . $primer_plato->descripcion . "<br><br></td>";
+                                    echo "<td>" . $primer_plato->caracteristicas->ingredientes->categoria . "<br><br></td>";
                                 echo "</tr>";
                            
                             }
@@ -104,8 +118,14 @@ if (file_exists('./XML/carta.xml')) {
                             
                                 echo "<tr>";
                                     echo "<td>" . $segundo_plato->nombre . "........" . $segundo_plato->precio . "</td>";
+                                    echo "<td>" . $segundo_plato->calorias_aproximadas . " cal</td>";
                                 echo "</tr>";
-                            
+
+                                echo "<tr>";
+                                    echo "<td>" . $segundo_plato->descripcion . "<br><br></td>";
+                                    echo "<td>" . $segundo_plato->caracteristicas->ingredientes->categoria . "<br><br></td>";
+                                echo "</tr>";
+                                
                             }
                         }
 
@@ -129,6 +149,12 @@ if (file_exists('./XML/carta.xml')) {
                             
                                 echo "<tr>";
                                     echo "<td>" . $postre->nombre . "........" . $postre->precio . "</td>";
+                                    echo "<td>" . $postre->calorias_aproximadas . " cal</td>";
+                                echo "</tr>";
+
+                                echo "<tr>";
+                                    echo "<td>" . $postre->descripcion . "<br><br></td>";
+                                    echo "<td>" . $postre->caracteristicas->ingredientes->categoria . "<br><br></td>";
                                 echo "</tr>";
                             
                             }

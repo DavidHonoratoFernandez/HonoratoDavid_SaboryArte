@@ -32,7 +32,7 @@ header, footer {
 main {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     padding: 30px;
 }
 
@@ -44,7 +44,7 @@ section {
 }
 
 .tablas {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 15px;
     padding: 20px;
     box-shadow: 2px 0px 10px black;
@@ -60,3 +60,5 @@ table {
     width: 100%;
     text-align: left;
 }
+
+@media 
