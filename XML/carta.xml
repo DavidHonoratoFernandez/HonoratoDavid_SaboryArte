@@ -51,6 +51,19 @@
         </caracteristicas>
     </plato>
 
+    <plato tipo="entrante">
+        <nombre>Queso Manchego Curado</nombre>
+        <precio>7,00€</precio>
+        <descripcion>Lonchas de queso manchego curado, servido con pan tostado y aceite de oliva.</descripcion>
+        <calorias_aproximadas>320</calorias_aproximadas>
+        <caracteristicas>
+            <ingredientes>
+                <categoria>lácteo</categoria>
+                <categoria>sin gluten</categoria>
+            </ingredientes>
+        </caracteristicas>
+    </plato>
+
     <!-- Primeros Platos -->
     <plato tipo="primer_plato">
         <nombre>Crema de Calabaza</nombre>
@@ -102,6 +115,19 @@
         </caracteristicas>
     </plato>
 
+    <plato tipo="primer_plato">
+        <nombre>Sopa Castellana</nombre>
+        <precio>6,00€</precio>
+        <descripcion>Sopa tradicional de ajo con huevo escalfado y pan, típica de Castilla.</descripcion>
+        <calorias_aproximadas>350</calorias_aproximadas>
+        <caracteristicas>
+            <ingredientes>
+                <categoria>vegetariano</categoria>
+            </ingredientes>
+        </caracteristicas>
+    </plato>
+
+
     <!-- Segundos Platos -->
     <plato tipo="segundo_plato">
         <nombre>Cochinillo Asado</nombre>
@@ -152,6 +178,20 @@
             </ingredientes>
         </caracteristicas>
     </plato>
+
+    <plato tipo="segundo_plato">
+        <nombre>Pollo al Ajillo</nombre>
+        <precio>13,00€</precio>
+        <descripcion>Trozos de pollo salteados con ajo y vino blanco, acompañados de patatas.</descripcion>
+        <calorias_aproximadas>550</calorias_aproximadas>
+        <caracteristicas>
+            <ingredientes>
+                <categoria>carne</categoria>
+                <categoria>sin gluten</categoria>
+            </ingredientes>
+        </caracteristicas>
+    </plato>
+
 
     <!-- Postres -->
     <plato tipo="postre">

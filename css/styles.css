@@ -5,13 +5,16 @@
 body {
     margin: 0;
     text-align: center;
-    font-optical-sizing: auto;
+    font-family: 'Georgia', serif;
+    background-image: url(../img/Fondo.png);
+    background-size: cover; /* Cubra toda la pantalla */
+    background-repeat: no-repeat; /* No se repita */
+    background-position: center; /* Se ubique en el centro */
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 header, footer {
@@ -21,21 +24,39 @@ header, footer {
     text-align: center;
 }
 
-#titulo {
-
+#titulo, #copyright {
     font-family: "Parisienne", cursive;
-    font-weight: 400;
-
+    margin: 0;
 }
 
 main {
-
-    background-image: url(../img/Fondo.png);
-
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
 }
 
 section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
-    width: 50%;
+.tablas {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 2px 0px 10px black;
+}
 
+.tablas h1 {
+    font-family: 'Georgia', serif;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
 }
